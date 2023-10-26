@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
-    origin: ["http://www.example.com", "http://127.0.0.1:5500"],
+    origin: ["https://pays.fulfiledu.uz", "https://webinar-payment.web.app", "http://127.0.0.1:5500"],
     optionsSuccessStatus: 200
 }
 
